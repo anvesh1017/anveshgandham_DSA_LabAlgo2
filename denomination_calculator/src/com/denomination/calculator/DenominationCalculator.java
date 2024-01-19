@@ -42,8 +42,8 @@ public class DenominationCalculator {
 			if(noOfDenominations > 0) {
 				currentTotal = currentTotal + (currentDenomination * noOfDenominations);
 				System.out.printf("Number of denominations required for %d is/are %d, \r\n",currentDenomination, noOfDenominations);
-				int remBalance = payableAmount - currentTotal;
-				System.out.printf("Remaining Balance is %d, Current Total is %d, \r\n", remBalance, currentTotal);
+//				int remBalance = payableAmount - currentTotal;
+//				System.out.printf("Remaining Balance is %d, Current Total is %d, \r\n", remBalance, currentTotal);
 			}
 			workingAmount = balanceAmount;
 			if(workingAmount == 0) {
